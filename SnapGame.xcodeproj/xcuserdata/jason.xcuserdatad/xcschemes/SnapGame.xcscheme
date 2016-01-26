@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "96D5A4FE1C574B2400F7F860"
+               BuildableName = "SnapGame.app"
+               BlueprintName = "SnapGame"
+               ReferencedContainer = "container:SnapGame.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "96D5A5171C574B2400F7F860"
+               BuildableName = "SnapGameTests.xctest"
+               BlueprintName = "SnapGameTests"
+               ReferencedContainer = "container:SnapGame.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "96D5A5221C574B2400F7F860"
+               BuildableName = "SnapGameUITests.xctest"
+               BlueprintName = "SnapGameUITests"
+               ReferencedContainer = "container:SnapGame.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "96D5A4FE1C574B2400F7F860"
+            BuildableName = "SnapGame.app"
+            BlueprintName = "SnapGame"
+            ReferencedContainer = "container:SnapGame.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "96D5A4FE1C574B2400F7F860"
+            BuildableName = "SnapGame.app"
+            BlueprintName = "SnapGame"
+            ReferencedContainer = "container:SnapGame.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "96D5A4FE1C574B2400F7F860"
+            BuildableName = "SnapGame.app"
+            BlueprintName = "SnapGame"
+            ReferencedContainer = "container:SnapGame.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
