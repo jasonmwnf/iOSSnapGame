@@ -15,6 +15,12 @@
 		96D5A5121C574B2400F7F860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D5A5101C574B2400F7F860 /* LaunchScreen.storyboard */; };
 		96D5A51D1C574B2400F7F860 /* SnapGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D5A51C1C574B2400F7F860 /* SnapGameTests.m */; };
 		96D5A5281C574B2400F7F860 /* SnapGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D5A5271C574B2400F7F860 /* SnapGameUITests.m */; };
+		96D5A53B1C589A7B00F7F860 /* Car1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96D5A5351C589A7B00F7F860 /* Car1.jpg */; };
+		96D5A53C1C589A7B00F7F860 /* Car2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96D5A5361C589A7B00F7F860 /* Car2.jpg */; };
+		96D5A53D1C589A7B00F7F860 /* Car3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96D5A5371C589A7B00F7F860 /* Car3.jpg */; };
+		96D5A53E1C589A7B00F7F860 /* Car4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96D5A5381C589A7B00F7F860 /* Car4.jpg */; };
+		96D5A53F1C589A7B00F7F860 /* Car5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96D5A5391C589A7B00F7F860 /* Car5.jpg */; };
+		96D5A5401C589A7B00F7F860 /* Car6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96D5A53A1C589A7B00F7F860 /* Car6.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		96D5A5231C574B2400F7F860 /* SnapGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D5A5271C574B2400F7F860 /* SnapGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapGameUITests.m; sourceTree = "<group>"; };
 		96D5A5291C574B2400F7F860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D5A5351C589A7B00F7F860 /* Car1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Car1.jpg; sourceTree = "<group>"; };
+		96D5A5361C589A7B00F7F860 /* Car2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Car2.jpg; sourceTree = "<group>"; };
+		96D5A5371C589A7B00F7F860 /* Car3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Car3.jpg; sourceTree = "<group>"; };
+		96D5A5381C589A7B00F7F860 /* Car4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Car4.jpg; sourceTree = "<group>"; };
+		96D5A5391C589A7B00F7F860 /* Car5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Car5.jpg; sourceTree = "<group>"; };
+		96D5A53A1C589A7B00F7F860 /* Car6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Car6.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +129,12 @@
 		96D5A5021C574B2400F7F860 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				96D5A5351C589A7B00F7F860 /* Car1.jpg */,
+				96D5A5361C589A7B00F7F860 /* Car2.jpg */,
+				96D5A5371C589A7B00F7F860 /* Car3.jpg */,
+				96D5A5381C589A7B00F7F860 /* Car4.jpg */,
+				96D5A5391C589A7B00F7F860 /* Car5.jpg */,
+				96D5A53A1C589A7B00F7F860 /* Car6.jpg */,
 				96D5A5031C574B2400F7F860 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -243,8 +261,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96D5A53E1C589A7B00F7F860 /* Car4.jpg in Resources */,
 				96D5A5121C574B2400F7F860 /* LaunchScreen.storyboard in Resources */,
+				96D5A5401C589A7B00F7F860 /* Car6.jpg in Resources */,
+				96D5A53F1C589A7B00F7F860 /* Car5.jpg in Resources */,
 				96D5A50F1C574B2400F7F860 /* Assets.xcassets in Resources */,
+				96D5A53D1C589A7B00F7F860 /* Car3.jpg in Resources */,
+				96D5A53C1C589A7B00F7F860 /* Car2.jpg in Resources */,
+				96D5A53B1C589A7B00F7F860 /* Car1.jpg in Resources */,
 				96D5A50D1C574B2400F7F860 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +522,7 @@
 				96D5A52E1C574B2400F7F860 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96D5A52F1C574B2400F7F860 /* Build configuration list for PBXNativeTarget "SnapGameTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +531,7 @@
 				96D5A5311C574B2400F7F860 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96D5A5321C574B2400F7F860 /* Build configuration list for PBXNativeTarget "SnapGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +540,7 @@
 				96D5A5341C574B2400F7F860 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
